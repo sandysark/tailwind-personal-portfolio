@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
 </head>
 
 <body>
-    <header class="min-h-screen">
+    <header class="h-[80vh]">
         <!-- Navbar -->
         <nav class="bg-red-500 flex flex-col md:flex-row justify-between py-4 px-6 md:px-16 items-center text-white">
             <div>
@@ -35,12 +34,12 @@
         </nav>
 
         <!-- Hero Section -->
-        <section class="mt-10 px-6 md:px-16 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-            <div>
-                <p class="text-red-500 font-bold text-sm md:text-base">GET EVERY SINGLE SOLUTIONS.</p>
-                <h1 class="font-bold text-4xl md:text-5xl lg:text-6xl mt-2">Hello!</h1>
+        <!-- <section class="mt-10 px-6 md:px-16 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-center"> -->
+        <div>
+            <p class="text-red-500 font-bold text-sm md:text-base">GET EVERY SINGLE SOLUTIONS.</p>
+            <!-- <h1 class="font-bold text-4xl md:text-5xl lg:text-6xl mt-2">Hello!</h1>
                 <h1 class="font-bold text-4xl md:text-5xl lg:text-6xl whitespace-nowrap">I'm Sandra</h1>
-                <h1 class="font-bold text-4xl md:text-5xl lg:text-6xl whitespace-nowrap">A Web Developer</h1>
+                <h1 class="font-bold text-4xl md:text-5xl lg:text-6xl whitespace-nowrap">A Frontend Developer</h1>
 
                 <p class="italic mt-4 text-sm md:text-base">"Welcome to my portfolio."</p>
                 <p class="mt-2 text-sm md:text-base leading-relaxed">
@@ -60,15 +59,34 @@
                         Me</a>
                     <a href="#"
                         class="text-white px-6 py-2 border-2 rounded hover:bg-red-300 bg-green-500 text-center">Hire
+                        Me</a> -->
+            <section class="text-center py-20 px-6">
+                <h2 class="text-4xl font-bold mb-2">Hi, I'm Sandra Sarkodie</h2>
+                <p class="text-lg text-2xl text-gray-700 mb-2">A Junior Frontend Developer</p>
+                <p class="max-w-xl mx-auto text-base">
+                    Transforming ideas into interactive digital stories.
+                    Passionate about building websites that are as functional as they are beautiful.
+                    Let’s bring your vision to life with code and creativity. Take a look around, explore my work, and
+                    feel free to reach out if you'd like to collaborate or have
+                    any questions. I am always open to exciting new opportunities and connections.
+                </p>
+                <div class="flex flex-wrap justify-center mt-10 gap-4">
+                    <a href="#" class="bg-red-500 text-white px-6 py-2 rounded hover:bg-red-700 text-center">About
                         Me</a>
-                </div>
-            </div>
+                    <a href="#"
+                        class="text-white px-6 py-2 border-2 rounded hover:bg-red-300 bg-green-500 text-center">Hire
+                        Me</a>
 
-            <!-- Optional: Add image or illustration here -->
-            <div>
-                <!-- Example placeholder image -->
-                <img src="./images/tailwind.jpg" alt="Web Developer" class="rounded-lg shadow-md">
-            </div>
+                </div>
+            </section>
+        </div>
+        </div>
+
+        <!-- Optional: Add image or illustration here -->
+        <!-- <div>
+                Example placeholder image -->
+        <!-- <img src="./images/tailwind.jpg" alt="Web Developer" class="rounded-lg shadow-md"> -->
+        <!-- </div> -->
         </section>
     </header>
 </body>
@@ -103,25 +121,25 @@
     </div>
 </section> -->
 <section class="text-center bg-red-500 flex justify-center items-center">
-  <div class="max-w-6xl py-12 px-6 flex flex-col md:flex-row items-center gap-8">
-    
-    <!-- Text on the left -->
-    <div class="md:w-1/2 text-left">
-      <h2 class="text-3xl font-semibold text-white mb-6 text-center">About Me</h2>
-      <p class="text-white text-base leading-relaxed">
-        I'm a frontend developer passionate about crafting clean, intuitive user interfaces. I specialize in
-        building responsive, accessible, and performant web applications using modern tools like HTML, Tailwind
-        CSS, and JavaScript. Whether it's a landing page or a full-scale dashboard, I enjoy turning ideas into
-        seamless digital experiences.
-      </p>
-    </div>
+    <div class="max-w-6xl py-12 px-6 flex flex-col md:flex-row items-center gap-8">
 
-    <!-- Image on the right -->
-    <div class="md:w-1/2">
-      <img src="./images/tailwindimage.png" alt="About Me Image" class="w-full">
-    </div>
+        <!-- Text on the left -->
+        <div class="md:w-1/2 text-left">
+            <h2 class="text-3xl font-semibold text-white mb-6 text-center">About Me</h2>
+            <p class="text-white text-base leading-relaxed">
+                I'm a frontend developer passionate about crafting clean, intuitive user interfaces. I specialize in
+                building responsive, accessible, and performant web applications using modern tools like HTML, Tailwind
+                CSS, and JavaScript. Whether it's a landing page or a full-scale dashboard, I enjoy turning ideas into
+                seamless digital experiences.
+            </p>
+        </div>
 
-  </div>
+        <!-- Image on the right -->
+        <div class="md:w-1/2">
+            <img src="./images/tailwindimage.png" alt="About Me Image" class="w-full">
+        </div>
+
+    </div>
 </section>
 
 
@@ -177,8 +195,15 @@
                 <div class="bg-white shadow rounded-lg p-4">
                     <p class="text-lg font-semibold">Tailwind CSS</p>
                 </div>
-
-
+                <div class="bg-white shadow rounded-lg p-4">
+                    <p class="text-lg font-semibold">React</p>
+                </div>
+                <div class="bg-white shadow rounded-lg p-4">
+                    <p class="text-lg font-semibold">Git</p>
+                </div>
+                <div class="bg-white shadow rounded-lg p-4">
+                    <p class="text-lg font-semibold">Github</p>
+                </div>
 
 
     </section>
@@ -194,7 +219,7 @@
             <div class="bg-red-500 rounded-lg shadow hover:shadow-lg transition duration-300">
                 <img src="./images/veg.jpg" alt="Project 2" class="rounded-t-lg w-full object-cover">
                 <div class="p-6">
-                    <h3 class="text-xl font-semibold text-white mb-2">Project One</h3>
+                    <h3 class="text-xl font-semibold text-white mb-2">Vegetable Project</h3>
                     <p class="text-white mb-4 text-sm">A responsive web app built with html and CSS that
                         helps users manage tasks efficiently.</p>
                     <a href="https://sandysark.github.io/Sandys-Project//"
@@ -204,12 +229,11 @@
 
             <!-- Project 2 -->
             <div class="bg-red-500 rounded-lg shadow hover:shadow-lg transition duration-300">
-                <img src="./images/port.png" alt="Project 2" class="rounded-t-lg w-full object-cover">
+                <img src="./images/library.png" alt="Project 2" class="rounded-t-lg w-full object-cover">
                 <div class="p-6">
-                    <h3 class="text-xl font-semibold text-white mb-2">Project Two</h3>
-                    <p class="text-white mb-4 text-sm">A portfolio site designed with JavaScript and styled
-                        using Tailwind, focusing on performance and accessibility.</p>
-                    <a href="https://sandysark.github.io/portfolio/" class="text-white font-medium hover:underline">View
+                    <h3 class="text-xl font-semibold text-white mb-2">Library Management App</h3>
+                    <p class="text-white mb-4 text-sm"> Inkwell Hall is a smart, user-friendly library management app designed to streamline the entire library experience—for librarians, students, and book lovers alike. Whether you're managing thousands of titles or just browsing for your next read, Inkwell Hall simplifies every step..</p>
+                    <a href="https://inkwell-hall.netlify.app/" class="text-white font-medium hover:underline">View
                         Project →</a>
                 </div>
             </div>
@@ -218,7 +242,7 @@
             <div class="bg-red-500 rounded-lg shadow hover:shadow-lg transition duration-300">
                 <img src="./images/coffee.jpg" alt="Project 3" class="rounded-t-lg w-full object-cover">
                 <div class="p-6">
-                    <h3 class="text-xl font-semibold text-white mb-2">Project Three</h3>
+                    <h3 class="text-xl font-semibold text-white mb-2">Coffee Project</h3>
                     <p class="text-white mb-4 text-sm">A coffee website using html, CSS and Tailwind,
                         providing real-time insights for small businesses.</p>
                     <a href="https://sandysark.github.io/my-coffee-project/"
@@ -248,7 +272,7 @@
     </div>
 
     <div class="mt-10">
-        <a href="./Sandycv.pdf.pdf" download="resume"
+        <a href="./Sandracv.pdf" download="resume"
             class="inline-block px-6 py-3 bg-gray-800 text-white rounded hover:bg-gray-900 transition font-medium">
             Download Resume
         </a>
@@ -269,10 +293,7 @@
             </div>
         </div>
     </footer>
-
-
 </section>
-
 </body>
 
 </html>
